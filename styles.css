@@ -1,0 +1,267 @@
+details {
+    border: 1px solid white;
+    padding: 0.5rem 0.8rem;
+}
+
+.company:before {
+    content: "+";
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+}
+
+details[open] .company:before {
+    content: "-";
+}
+
+#career > li:after {
+    content: "~~~~";
+}
+
+#career > li:last-child:after {
+    content: "";
+}
+
+@media (max-width: 1250px) {
+    summary {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+#meta {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 90%;  
+    max-width: 1000px;  
+    margin: auto;
+    font-size: x-large;
+}
+
+.cell {
+    padding: 10px 30px; 
+    min-width: 160px;
+    border: 1px solid white;
+}
+
+.cell a {
+    word-break: break-all;
+    font-weight: bold; 
+}
+
+.cell:nth-child(2) {
+    border-top: 2px solid white;
+}
+
+.cell:nth-child(4) {
+    border-top: 2px solid white;
+}
+
+@keyframes glitch {
+    2%, 64% {
+        transform: translate(2px) skew(0);
+    }
+    4%, 60% {
+        transform: translate(-2px) skew(0);
+    }
+    62% {
+        transform: translate(0) skew(5deg);
+    }
+}
+
+.background-item {
+    animation: glitch 1s linear infinite;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: calc(100% - 1.5rem);
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 13px;
+    color: white;
+}
+
+#contents {
+    margin-left: 47px;
+}
+
+ul {
+    margin-top: -20px;
+    margin-left: 19px;
+}
+
+#projects {
+    padding: 30px; 
+    margin: 20px 0;
+    width: 90%; 
+    max-width: 1400px; 
+    border-radius: 10px;
+    margin-left: auto; 
+    margin-right: auto; 
+    box-sizing: border-box; 
+    min-height: 500px; 
+}
+
+#projects .cell {
+    font-size: 1.2rem; 
+    padding: 20px; 
+}
+
+.contents-text {
+    margin-left: 24px;
+}
+
+.contents-a {
+    font-size: larger;
+}
+
+.projects-a {
+    font-size: 19px;
+}
+
+.material-symbols-outlined {
+    font-size: 17px !important;
+}
+
+.footer-projects {
+    text-align: center;
+}
+
+#interests .cell {
+    padding: 1rem;
+    margin: 5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+#interests {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.interests-text {
+    margin-left: 77px;
+}
+
+.tailwind {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.typescript {
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    vertical-align: sub;
+}
+
+.knowledge-text {
+    margin-left: 77px;
+    margin-top: 80px;
+}
+
+.knowledge-list {
+    list-style: none;
+    padding: 0;
+}
+
+.frontend-list, .backend-list, .tools-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    list-style: none;
+    padding: 0;
+    margin-left: 45px;
+    text-decoration: underline;
+}
+
+.frontend-list li, .backend-list li, .tools-list li {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    gap: 40px;
+}
+
+.frontend-text {
+    display: inline-table;
+    margin-left: 60px;
+    color: rgb(0 198 255);
+}
+
+.backend-text {
+    display: inline-table;
+    margin-left: 60px;
+    color: rgb(255 255 0);
+}
+
+.tools-text {
+    display: inline-table;
+    margin-left: 60px;
+    color: rgb(248 134 252);
+}
+
+.knowledge-list a {
+    font-size: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    #meta {
+        grid-template-columns: 1fr;  
+        padding: 10px;               
+        font-size: medium;           
+        width: 100%;                 
+    }
+
+    .cell {
+        min-width: 120px;            
+        padding: 8px 15px;           
+    }
+
+    .frontend-list, .backend-list, .tools-list {
+        flex-direction: column;  
+        gap: 5px;               
+        margin-left: 0;          
+    }
+
+    .frontend-text, .backend-text, .tools-text {
+        margin-left: 0;           
+        display: block;           
+        text-align: center;      
+    }
+
+    .knowledge-text {
+        margin-left: 0;           
+        text-align: center;       
+        margin-top: 40px;         
+    }
+}
