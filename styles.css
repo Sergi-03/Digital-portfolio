@@ -59,22 +59,6 @@ details[open] .company:before {
     border-top: 2px solid white;
 }
 
-@keyframes glitch {
-    2%, 64% {
-        transform: translate(2px) skew(0);
-    }
-    4%, 60% {
-        transform: translate(-2px) skew(0);
-    }
-    62% {
-        transform: translate(0) skew(5deg);
-    }
-}
-
-.background-item {
-    animation: glitch 1s linear infinite;
-}
-
 main {
     margin: auto;
     padding: 1rem;
