@@ -1,6 +1,6 @@
 # Digital Portfolio
 
-Este es mi portafolio digital, creado con HTML y CSS. Está diseñado para mostrar mis habilidades como desarrollador frontend de una manera simple pero efectiva. He priorizado la accesibilidad y la adaptabilidad para que se vea bien en cualquier dispositivo.
+Este es mi portafolio digital, creado con HTML y CSS. Está diseñado para mostrar mis habilidades como desarrollador fullstack de una manera simple pero efectiva. He priorizado la accesibilidad y la adaptabilidad para que se vea bien en cualquier dispositivo.
 
 ## Características
 
