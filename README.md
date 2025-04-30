@@ -1,5 +1,5 @@
 # Digital Portfolio
-![brave_screenshot_sergi-03 github io](https://github.com/user-attachments/assets/ec60c794-6a48-485c-806e-49e3cd59df08)
+![brave_screenshot_sergi-03 github io](https://github.com/user-attachments/assets/5b8e13d6-b25d-468d-8558-b6a26dbf4895)
 
 Este es mi portafolio digital, creado con HTML y CSS. Está diseñado para mostrar mis habilidades como desarrollador fullstack de una manera simple pero efectiva. He priorizado la accesibilidad y la adaptabilidad para que se vea bien en cualquier dispositivo.
 
