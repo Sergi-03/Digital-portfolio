@@ -247,4 +247,7 @@ ul {
         text-align: center;       
         margin-top: 40px;         
     }
+    .cell contact {
+        display: none;
+    }
 }
